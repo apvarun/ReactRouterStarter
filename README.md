@@ -1,11 +1,14 @@
-# React Starter
-Starter App for React projects, managed by Webpack and transpiled by Babel
+# React - Router Starter
+Starter App for React projects with routing options, managed by Webpack and transpiled by Babel
 
 ## Getting Started
 
 ### Features
 
 - React for the view
+- React Router for URL routing
+    - With support for route-based code splitting
+    - `react-loadable` for loading placeholders
 - Webpack 3 for bundling
 - Babel for ES6 and ES7 transpiling
 - Webpack dev server for hot-reloading
@@ -18,8 +21,8 @@ Starter App for React projects, managed by Webpack and transpiled by Babel
 ### Installing
 
 ```
-git clone https://github.com/apvarun/ReactStarter.git
-cd ReactStarter
+git clone https://github.com/apvarun/ReactRouterStarter.git
+cd ReactRouterStarter
 yarn
 ```
 
@@ -35,12 +38,14 @@ yarn run build
 | ------------------ | ------------------------------------------------------------------------------------------ |
 | `build`            | Build the project and output the files to the *dist* folder.           |
 | `dev` | Spins up a hot-reloading live server at `localhost:8080` for development. |
+| `analyse` | Generates the Stats.json file that talks about what teh bundle consists of. Use the [Visualizer](https://chrisbateman.github.io/webpack-visualizer/) by Chris to analyse the output file. |
 
 ## Built With
 
 * [React](https://reactjs.org/) - The web framework
+* [React Router](https://github.com/ReactTraining/react-router) - The URL handler
 * [Webpack](https://webpack.js.org/) - Module bundler
-* [Babel](https://babeljs.io/) - Javascript transpiler
+* [Babel](https://babeljs.io/) - JavaScript transpiler
 
 ## License
 
